@@ -213,7 +213,6 @@ const TodoApp = () => {
   const [backgroundImage, setBackgroundImage] = useState(getRandomImage());
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState('');
-  const [isChecked, setIsChecked] = useState(false);
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
